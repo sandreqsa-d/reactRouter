@@ -1,23 +1,14 @@
 import { useNavigate } from "react-router-dom";
 
-export default function Task1() {
+export default function Task2() {
   const nav = useNavigate();
 
   return (
-    <div>
-      <h1>This is a page for Task2</h1>
+    <div className="flex flex-col gap-4 w-[75%] mt-15 m-auto items-center bg-purple-300 p-5">
+      <h1 className="text-4xl font-bold">This is a page for Task2</h1>
       <button
         onClick={() => nav("/")}
-        style={{
-          padding: "10px 20px",
-          fontSize: "16px",
-          borderRadius: "8px",
-          border: "none",
-          backgroundColor: "#f44336",
-          color: "#fff",
-          cursor: "pointer",
-          transition: "0.3s"
-        }}
+        className="px-5 py-2 text-lg rounded-lg bg-red-500 text-white hover:bg-red-600 transition w-fit"
       >
         Back
       </button>
