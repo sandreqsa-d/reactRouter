@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Task1 from "./components/Task2";
-import Task2 from "./components/Task1";
+import Home from "./components/home/Home";
+import Task1 from "./components/task2/Task2";
+import Task2 from "./components/task1/Task1";
 
 
 
